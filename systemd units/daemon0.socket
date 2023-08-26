@@ -1,0 +1,9 @@
+[Unit]
+Description=Network Yeller TCP Activating Socket
+
+[Socket]
+ListenStream=8027
+Accept=yes
+
+[Install]
+WantedBy=sockets.target

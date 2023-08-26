@@ -1,0 +1,7 @@
+[Unit]
+Description=Network Yeller Program
+Requires=daemon0.socket
+
+[Service]
+ExecStart="/home/27labs/Codes/daemon0/target/release/daemon0"
+StandardInput=socket
